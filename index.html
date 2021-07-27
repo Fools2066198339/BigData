@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>大数据大作业</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center;">大气数据可视化</h1>
+    </header>
+    <section class="mainbox">
+      <div class="column">
+		  
+        <div class="panel bar">
+          <h2>大气主要污染物综合TOP6</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+		
+       <div class="panel line">
+          <h2>温度与湿度TOP5</h2>
+		  
+		  		选择地区:
+				<button id="dp">切换</button>
+<!-- 		  		<select id="dq">
+		  			<option>请选择</option>
+		  			<option value="032001">温度</option>
+		  			<option value="032002">湿度</option>
+		  		</select> -->
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+		
+      </div>
+	  
+      <div class="column">
+        <div class="map">
+          <div class="chart"></div>
+        </div>
+      </div>
+	  
+      <div class="column">
+		  
+        <div class="panel bar1">
+          <h2>可吸入颗粒TOP5</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+		
+        <div class="panel line1">
+          <h2>主要污染物占比</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+		
+      </div>
+    </section>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/china.js"></script>
+
+	
+  </body>
+</html>
